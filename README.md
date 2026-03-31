@@ -19,6 +19,28 @@ This project is a backend-only computer vision pipeline that processes images us
 - NumPy
 - Scikit-learn
 
+## Folder Format
+
+vision_project/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── utils/
+│ ├── preprocess.py
+│ ├── features.py
+│ ├── segmentation.py
+│ ├── motion.py
+│
+├── inputs/ # User input images (any format)
+├── outputs/ # Generated output images
+
+## 🚀 Features
+- Image preprocessing (Grayscale, Histogram Equalization, Blur)
+- Edge Detection (Canny)
+
 ## ▶️ How to Run
 
 ```bash
